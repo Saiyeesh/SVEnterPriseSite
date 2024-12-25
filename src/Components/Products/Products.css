@@ -1,0 +1,146 @@
+.proCutBack{
+    background-color: rgb(145, 127, 103);
+}
+
+.proCutBack h1{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    padding-left: 50px;
+}
+
+.profirstPart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+}
+
+.proImg{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* .iconhand{
+    height: 30px;
+    padding-right: 50px;
+} */
+
+.procut{
+    height: 300px;
+    width: 350px;
+}
+
+.td{
+    padding-left: 20px;
+    width: 50%;
+}
+
+.td2{
+    padding: 10px;
+    width: 100%;
+}
+
+.protable{
+    width: 40%;
+}
+
+.prohead{
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    height: 45px;
+    width: 100%;
+}
+
+.prorow1{
+    background-color: hsla(0, 0%, 50.2%, .0705882353);
+    height: 60px;
+    width: 100px;
+}
+
+.prosecoundPart{
+    column-count: 2;
+    word-break: break-word;
+    text-align: justify;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.prosecoundPart h1{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.prosecoundPart p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.proallBags{
+   height: 250px;
+   width: 400px;
+   margin-left: 20px;
+}
+
+.prothirdPart{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.prothirdPart h2{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.prosubpart h4{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profourthPart{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.profourthPart h2{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.profivethPart{
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.profivethPart h2{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.profinalPart{
+    position: relative;
+}
+
+.protableData{
+    border-color: transparent;
+    width: '100%';
+    border-collapse: 'collapse' ;
+}

@@ -1,0 +1,89 @@
+.RcutBack{
+    background-color: antiquewhite;
+    margin-top: -20px;
+}
+
+.RcutBack h2{
+    font-family: Roboto;
+    padding: 15px;
+}
+
+.Rcutfirstpart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.RcutImg{
+    height: 300px;
+    width: 400px;
+}
+
+.Rcutsecoundpart {
+    padding: 15px;
+    column-count: 2;
+    word-wrap: break-word;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+.Rcutsecoundpart h4{
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.RcutN{
+    height: 300px;
+    width: 400px;
+}
+
+.Rcutthirdpart{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.Rcutthirdpart h4{
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.Rcutthirdpart h5{
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.Rcutthirdpart p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.Rcutfourthpart{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.Rcutfourthpart h4{
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.Rcutfourthpart p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.Rcutfivthpart{
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.Rcutfivthpart h4{
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.Rcutfivthpart p {
+    font-family: sans-serif;
+    font-size: 15px;
+}

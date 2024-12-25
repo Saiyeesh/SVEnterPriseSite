@@ -1,0 +1,83 @@
+.footerBack{
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.footerAllParts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerFirstPart{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.firstLogo{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first h5{
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first p{
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: -2px;
+}
+
+.footerSecoundPart h4{
+    font-family: Roboto;
+    font-size: 18px;
+    color: white;
+}
+
+.footerUls {
+    list-style-type: none;
+    color: white;
+    font-family: Roboto;
+    margin-left: -35px;
+}
+
+.footerUls li{
+    padding: 5px;
+}
+
+.logoIcons{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+}
+
+.logg{
+    font-size: 25px;
+    padding: 5px;
+    /* color: white; */
+}
+
+.footerThirdPart h4{
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}

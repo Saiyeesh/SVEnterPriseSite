@@ -1,0 +1,185 @@
+.CarImages{
+    display: flex;
+}
+
+/* .carosusel_section{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    padding: 40px;
+} */
+
+.linkLines{
+    text-decoration: none;
+    color: white;
+}
+
+/* .cauroImg1{
+    display: flex;
+} */
+
+.firstPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0332;
+    padding: 20px;
+}
+
+.leftTxt{
+    padding-left: 20px;
+}
+
+.leftTxt h1{
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    width: 90%;
+}
+
+.leftTxt p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 60%;
+}
+
+.leftTxt button{
+    background-color: #0f5b26;
+    height: 45px;
+    width: 130px;
+    color: white;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.firstImg{
+    height: 300px;
+    width: 380px;
+    border-radius: 15px;
+}
+
+.ourProducts{
+    margin-top: 20px;
+}
+
+.ourProducts h2{
+    text-align: center;
+}
+
+.boxContainers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BagCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 56, 22, 0.715);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px #302934;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+
+.BagCards h5{
+    font-family: Roboto;
+    font-size: 15px;
+    /* width: 95%; */
+    text-align: center;
+}
+
+.BagCards:hover {
+    transform: translateY(10px); 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.cardImg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* height: 200px;
+    width: 215px; */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cardImgD{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+.whyChoose{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #DBDBDB;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.imgCloth{
+    width: 40%;
+}
+
+.textBox{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.textBox h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.textBox p{
+    font-family: Roboto;
+    text-align: justify;
+}
+.sheetImg{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.sub-items{
+    display: flex;
+}
+
+.item1 p {
+    font-family: Roboto;
+    margin-top: -1px;
+    font-size: 15px;
+}
+
+.item1{
+    margin-right: 120px;
+}
+
+.itemfinal{
+    margin: 10px;
+}
+
+.item-logo{
+    border-radius: 50px;
+    height: 60px;
+}
+
+.lastPage{
+    display: flex;
+    background-color: rgb(249, 253, 255);
+}
