@@ -76,8 +76,72 @@
     /* color: white; */
 }
 
+.flinks{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
 .footerThirdPart h4{
     font-family: Roboto;
     font-size: 20px;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .footerBack {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footerAllParts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footerFirstPart {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .firstLogo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .first h5 {
+        font-size: 14px;
+    }
+
+    .first p {
+        font-size: 14px;
+    }
+
+    .footerSecoundPart h4 {
+        font-size: 16px;
+    }
+
+    .footerUls {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footerUls li {
+        padding: 3px;
+    }
+
+    .logoIcons {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .logg {
+        font-size: 25px;
+    }
+
+    .footerThirdPart h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
 }

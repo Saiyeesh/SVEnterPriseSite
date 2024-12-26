@@ -144,3 +144,117 @@
     width: '100%';
     border-collapse: 'collapse' ;
 }
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .proCutBack h1 {
+        font-size: 22px;
+        padding-left: 20px;
+    }
+
+    .profirstPart {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .proImg {
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .procut {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .td {
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    .td2 {
+        padding: 8px;
+        width: 100%;
+    }
+
+    .protable {
+        width: 100%;
+    }
+
+    .prohead {
+        font-size: 14px;
+        height: auto;
+        padding: 5px;
+    }
+
+    .prorow1 {
+        height: auto;
+        padding: 5px;
+    }
+
+    .prosecoundPart {
+        column-count: 1;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .prosecoundPart h1 {
+        font-size: 20px;
+    }
+
+    .prosecoundPart p {
+        font-size: 14px;
+    }
+
+    .proallBags {
+        height: 200px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .prothirdPart {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .prothirdPart h2 {
+        font-size: 22px;
+    }
+
+    .prosubpart h4 {
+        font-size: 18px;
+    }
+
+    .profourthPart {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .profourthPart h2 {
+        font-size: 22px;
+    }
+
+    .profivethPart {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .profivethPart h2 {
+        font-size: 22px;
+    }
+
+    .profinalPart {
+        padding: 10px;
+    }
+
+    .protableData {
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+}

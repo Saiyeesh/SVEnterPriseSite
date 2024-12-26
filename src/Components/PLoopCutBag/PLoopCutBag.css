@@ -95,3 +95,100 @@
     font-family: sans-serif;
     font-size: 15px;
 }
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .pLoopcutBack {
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .pLoopcutBack h1 {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pLoopcutfirstpart {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .pLoopcutImg {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .pLoopcutsecoundpart {
+        column-count: 1;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .pLoopcutsecoundpart h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .pLoopcutsecoundpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .pLoopcutN {
+        height: auto;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .pLoopcutthirdpart {
+        padding: 10px;
+    }
+
+    .pLoopcutthirdpart h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .pLoopcutthirdpart h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .pLoopcutthirdpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .pLoopcutfourthpart {
+        padding: 10px;
+    }
+
+    .pLoopcutfourthpart h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .pLoopcutfourthpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .pLoopcutfivthpart {
+        padding: 10px;
+    }
+
+    .pLoopcutfivthpart h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .pLoopcutfivthpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+}

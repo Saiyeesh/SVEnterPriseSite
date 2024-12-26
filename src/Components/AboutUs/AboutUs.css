@@ -1,5 +1,8 @@
 .main{
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .a{
     display: flex;
@@ -71,9 +74,12 @@
     line-height: 25px;
     color: rgb(130, 126, 126);
  }
+
  .aa{
     margin-top:80px ;
  }
+
+
  button{
   width:150px;
   height: 50px;
@@ -88,3 +94,91 @@
  button:hover{
     color: black;
  }
+
+ /* Mobile View Styles */
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .a {
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .b {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0 10px;
+    }
+
+    .img1 {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 20px;
+    }
+
+    .header1 {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .c {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0 10px;
+    }
+
+    .d {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .para {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header3 {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .g {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+        padding: 0 10px;
+    }
+
+    .aa {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        max-width: 200px;
+        height: 45px;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    button:hover {
+        color: white;
+    }
+}

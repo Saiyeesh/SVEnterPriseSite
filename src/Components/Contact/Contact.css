@@ -89,3 +89,59 @@
     height:300px;
     border:0;
 }
+
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .contactBack {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .contactFirstPart {
+        text-align: center;
+    }
+
+    .contactFirstPart h1 {
+        font-size: 16px;
+    }
+
+    .contactFirstPart p {
+        font-size: 20px;
+    }
+
+    .contactSecoundPart {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .secoundPart, .secoundPart2 {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    .secoundPart button {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .inputType {
+        font-size: 14px;
+        height: 35px;
+        padding-left: 10px;
+    }
+
+    .area {
+        height: 80px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .location {
+        width: 100%;
+        height: auto;
+    }
+}

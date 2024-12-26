@@ -87,3 +87,76 @@
     font-family: sans-serif;
     font-size: 15px;
 }
+
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+    .RcutBack {
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .RcutBack h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Rcutfirstpart {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .RcutImg {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .Rcutsecoundpart {
+        column-count: 1;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .Rcutsecoundpart h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Rcutsecoundpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .RcutN {
+        width: 100%;
+        height: auto;
+    }
+
+    .Rcutthirdpart,
+    .Rcutfourthpart,
+    .Rcutfivthpart {
+        padding: 10px;
+    }
+
+    .Rcutthirdpart h4,
+    .Rcutfourthpart h4,
+    .Rcutfivthpart h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Rcutthirdpart h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Rcutthirdpart p,
+    .Rcutfourthpart p,
+    .Rcutfivthpart p {
+        font-size: 14px;
+        text-align: justify;
+    }
+}

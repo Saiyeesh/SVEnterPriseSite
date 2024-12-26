@@ -55,7 +55,7 @@ function AboutUs() {
                                 <p className="g">Our team works in close synchronization to each other to attain the trade objectives within stipulated time frame.</p>
                             </div>
                             <button type="button">WHATSAPP US</button>
-                        </div>
+                    </div>
                 </div>
 
         </>

@@ -19,10 +19,10 @@ function Footer() {
             <div className="footerSecoundPart">
                 <h4>Social Media</h4>
                 <ul className="footerUls">
-                    <li>Instagram</li>
-                    <li>WhatsApp</li>
-                    <li>Phone</li>
-                    <li>FaceBook</li>
+                    <a href="https://www.instagram.com/sv_enterprises___/" target="_blank" className="flinks"><li>Instagram</li></a>
+                    <a href="https://www.whatsapp.com/catalog/919963265472/?app_absent=0" target="_blank" className="flinks"> <li>WhatsApp</li></a>
+                    <a href="" className="flinks"><li>Phone</li></a>
+                    <a href="" className="flinks"><li>FaceBook</li></a>
                 </ul>
             </div>
             <div className="footerThirdPart">
