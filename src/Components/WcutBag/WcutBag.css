@@ -21,14 +21,14 @@
 }
 
 .WImg{
-    border: 2px solid black;
     padding: 15px;
     border-radius: 20px;
 }
 
 .Wcut{
-    height: 400px;
-    width: 450px;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
 }
 
 .Wtable{
@@ -167,6 +167,6 @@ th, td {
     width: 200px;
     height: 50px;
     font-family: Roboto;
-    border-radius: 30px;
-    border-color: white;
+    border-radius: 25px;
+    border: 2.5px solid white;
 }

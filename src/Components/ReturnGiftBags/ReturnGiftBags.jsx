@@ -3,6 +3,7 @@ import "./ReturnGiftBags.css";
 
 import Rcutimg from "..//../assets/giftbag.jpg";
 import RcutN from "..//../assets/giftbag.jpg";
+import { FaRegHandshake } from "react-icons/fa";
 
 function ReturnGiftBags() {
     return (
@@ -14,8 +15,45 @@ function ReturnGiftBags() {
                 <div className='RcutImgBox'>
                     <img src={Rcutimg} className='RcutImg' />
                 </div>
-                <div>
-                    Table
+                <div className='protable'>
+                    <table border="1" className='protableData'>
+                        <thead className='prohead'>
+                            <tr>
+                                <th><FaRegHandshake className='iconhand' />Product Details</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className='prorow1'>
+                                <td className='td'>Minimum Order Quantity</td>
+                                <td className='td2'>500 KG</td>
+                            </tr>
+                            <tr>
+                                <td className='td'>Material</td>
+                                <td className='td2'>Non Woven Fabric</td>
+                            </tr>
+                            <tr className='prorow1'>
+                                <td className='td'>Use For</td>
+                                <td className='td2'>Shopping Bags / Grocery Bags</td>
+                            </tr>
+                            <tr>
+                                <td className='td'>Price Range</td>
+                                <td className='td2'>80-200 INR/ Kilograms</td>
+                            </tr>
+                            <tr className='prorow1'>
+                                <td className='td'>Colours</td>
+                                <td className='td2'>Plain & Multicolor Both (Customized Also)</td>
+                            </tr>
+                            <tr>
+                                <td className='td'>Size</td>
+                                <td className='td2'>All Size (Different sizes available as per customer requirements)</td>
+                            </tr>
+                            <tr className='prorow1'>
+                                <td className='td'>GSM</td>
+                                <td className='td2'>All GSM Available</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             <div className='Rcutsecoundpart'>
@@ -50,6 +88,10 @@ function ReturnGiftBags() {
                 <p><span style={{ fontWeight: 'bold' }}>3. Durable: </span> When contrasted with the conventional shopping bags, the non-woven bags are dependable and can last up to 5 years. Basically, these bags can be utilized and reused a few hundred times and can convey more loads when contrasted with the customary shopping bags. These bags are water-resistant, attractive and recyclable. These bags won’t break, tear or wear out like paper bags or PET bags. So, non-woven bags definitely rank better than the other counterparts.</p>
                 <p><span style={{ fontWeight: 'bold' }}>4. Advertising Tool:</span>  On the non-woven bag, printing can be done. So there are a lot of non-woven bag manufacturers who can print a logo as well as the brand name of the company and creates attractive bags and it also attracts the customer. So non-woven bag can prove to be a great advertising tool for companies. Also, there are various colors and sizes are available of a non-woven bag.</p>
                 <p><span style={{ fontWeight: 'bold' }}>5. Liquid Repellent: </span>. Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
+            </div>
+            <div className='WfinalPart'>
+                <h1>FOR ANY ENQUIRY</h1>
+                <button>Call Today</button>
             </div>
         </>
     )

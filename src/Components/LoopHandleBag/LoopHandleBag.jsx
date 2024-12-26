@@ -3,6 +3,7 @@ import React from 'react'
 import "./LoopHandleBag.css";
 import Loopcutimg from "..//../assets/loopcut.jpg";
 import LoopcutN from "..//../assets/loopcut.jpg";
+import { FaRegHandshake } from "react-icons/fa";
 
 function LoopHandleBag() {
   return (
@@ -14,9 +15,46 @@ function LoopHandleBag() {
               <div className='LoopcutImgBox'>
                  <img src={Loopcutimg} className='LoopcutImg'/>
               </div>
-              <div>
-                 Table 
-              </div>
+              <div className='protable'>
+               <table border="1" className='protableData'>
+                  <thead className='prohead'>
+                     <tr>
+                        <th><FaRegHandshake className='iconhand' />Product Details</th>
+                        <th></th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr className='prorow1'>
+                        <td className='td'>Minimum Order Quantity</td>
+                        <td className='td2'>500 KG</td>
+                     </tr>
+                     <tr>
+                        <td className='td'>Material</td>
+                        <td className='td2'>Non Woven Fabric</td>
+                     </tr>
+                     <tr className='prorow1'>
+                        <td className='td'>Use For</td>
+                        <td className='td2'>Shopping Bags / Grocery Bags</td>
+                     </tr>
+                     <tr>
+                        <td className='td'>Price Range</td>
+                        <td className='td2'>80-200 INR/ Kilograms</td>
+                     </tr>
+                     <tr className='prorow1'>
+                        <td className='td'>Colours</td>
+                        <td className='td2'>Plain & Multicolor Both (Customized Also)</td>
+                     </tr>
+                     <tr>
+                        <td className='td'>Size</td>
+                        <td className='td2'>All Size (Different sizes available as per customer requirements)</td>
+                     </tr>
+                     <tr className='prorow1'>
+                        <td className='td'>GSM</td>
+                        <td className='td2'>All GSM Available</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
            </div>
            <div className='Loopcutsecoundpart'>
                <h2>Non Woven Bags Manufacturer in India</h2>
@@ -51,6 +89,10 @@ function LoopHandleBag() {
              <p><span style={{fontWeight: 'bold'}}>4. Advertising Tool:</span>  On the non-woven bag, printing can be done. So there are a lot of non-woven bag manufacturers who can print a logo as well as the brand name of the company and creates attractive bags and it also attracts the customer. So non-woven bag can prove to be a great advertising tool for companies. Also, there are various colors and sizes are available of a non-woven bag.</p>
              <p><span style={{fontWeight: 'bold'}}>5. Liquid Repellent: </span>. Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
            </div>
+           <div className='WfinalPart'>
+                <h1>FOR ANY ENQUIRY</h1>
+                <button>Call Today</button>
+         </div>
     </>
   )
 }

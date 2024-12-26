@@ -52,11 +52,13 @@
 .scutthirdpart h2{
     font-family: Roboto;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .scutthirdpart h4{
     font-family: Roboto;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .scutthirdpart p {

@@ -14,48 +14,44 @@ function WcutBag() {
             </div>
             <div className='WfirstPart'>
                 <div className='WImg'>
-                    <img src={Wcut} alt='Wcut' className='Wcut'/>
+                    <img src={Wcut} alt='Wcut' className='Wcut' />
                 </div>
-                <div className='Wtable'>
-                    <table border="1" className='tableData'>
-                        <thead className='head'>
-                            {/* <tr>
-                                <th className='mainHeadT'><FaRegHandshake className='handlogo'/>Product Details &nbsp; ( ₹173/KG Onwards)</th>
-                                <th>Product Details</th>
-                            </tr> */}
+                <div className='protable'>
+                    <table border="1" className='protableData'>
+                        <thead className='prohead'>
+                            <tr>
+                                <th><FaRegHandshake className='iconhand' />Product Details</th>
+                                <th></th>
+                            </tr>
                         </thead>
                         <tbody>
-                            <tr className='mainHeadT'>
-                                <td ><FaRegHandshake className='handlogo'/>Product Details &nbsp; ( ₹173/KG Onwards)</td>
-                                <td></td>
-                            </tr>
-                            <tr className='row1'>
-                                <td className='tdrow'>Minimum Order Quantity</td>
-                                <td>500 KG</td>
+                            <tr className='prorow1'>
+                                <td className='td'>Minimum Order Quantity</td>
+                                <td className='td2'>500 KG</td>
                             </tr>
                             <tr>
-                                <td>Material</td>
-                                <td>Non Woven Fabric</td>
+                                <td className='td'>Material</td>
+                                <td className='td2'>Non Woven Fabric</td>
                             </tr>
-                            <tr className='row1'>
-                                <td>Use For</td>
-                                <td>Shopping Bags / Grocery Bags</td>
-                            </tr>
-                            <tr>
-                                <td>Price Range</td>
-                                <td>80-200 INR/ Kilograms</td>
-                            </tr>
-                            <tr className='row1'>
-                                <td>Colours</td>
-                                <td>Plain & Multicolor Both (Customized Also)</td>
+                            <tr className='prorow1'>
+                                <td className='td'>Use For</td>
+                                <td className='td2'>Shopping Bags / Grocery Bags</td>
                             </tr>
                             <tr>
-                                <td>Size</td>
-                                <td>All Size (Different sizes available as per customer requirements)</td>
+                                <td className='td'>Price Range</td>
+                                <td className='td2'>80-200 INR/ Kilograms</td>
                             </tr>
-                            <tr className='row1'>
-                                <td>GSM</td>
-                                <td>All GSM Available</td>
+                            <tr className='prorow1'>
+                                <td className='td'>Colours</td>
+                                <td className='td2'>Plain & Multicolor Both (Customized Also)</td>
+                            </tr>
+                            <tr>
+                                <td className='td'>Size</td>
+                                <td className='td2'>All Size (Different sizes available as per customer requirements)</td>
+                            </tr>
+                            <tr className='prorow1'>
+                                <td className='td'>GSM</td>
+                                <td className='td2'>All GSM Available</td>
                             </tr>
                         </tbody>
                     </table>
@@ -63,7 +59,7 @@ function WcutBag() {
             </div>
             <div className='WsecoundPart'>
                 <h1>Non Woven Bags Manufacturing in India</h1>
-                <img src={allbags} className='allBags'/>
+                <img src={allbags} className='allBags' />
                 <p>At SV_Enterprises, we’re here to make sure you have everything you need to keep your business running smoothly. Our non-woven bags are a great solution for all kinds of businesses, from industrial and manufacturing to retail and wholesale. We’ve been in the industry for over 10 years, so we know exactly what it takes to keep your machines running at peak efficiency.</p>
                 <p>We offer a wide range of products: Non-woven bags, D Cut Non-woven bags, W Cut Non-woven bags—all at affordable prices! We can also customize these products for you if you need something special for your business.</p>
                 <p>If you’re looking for a reliable manufacturer and supplier of non-woven bags in India, look no further than Satnam Overseas!</p>
@@ -75,9 +71,9 @@ function WcutBag() {
                 <p>Non-woven bags are manufactured from non woven fabric. Non-woven fabrics are extensively characterized sheet or web structures bonded together by entangling fiber or filaments (and by perforating films) mechanically, thermally or chemically. Non woven bags were first introduced in China, crafted with care from spun-bond non-woven polypropylene (PP) cloth. The use of polypropylene lends the bags the appearance and texture of cloth.</p>
                 <div className='Wsubpart'>
                     <h4>Types Of Non Woven Carry Bags</h4>
-                    <p><span style={{fontWeight:'bold'}}>1.  D Cut Non Woven Bags –</span> D cut non woven bags that can be used to carry bags which is a great replacement for plastic bags at shop and stores. The Handle of  D cut bag is soft and hence it is an essential part of the bag, they do not get ripped that easily.</p>
-                    <p><span style={{fontWeight:'bold'}}>2. W Cut Non Woven Bags –</span> W Cut Non Woven Bags are considered as a top selling bags in the market. These are made with a premium grade of raw materials and fabric materials. Provided bags are eco-friendly and doesn’t harm the environment. W-Cut Non Woven Bags are considered as a top selling bags in the market. These are made with a premium grade of raw materials and fabric materials. Provided bags are eco-friendly and doesn’t harm the environment.</p>
-                    <p><span style={{fontWeight:'bold'}}>3. U Cut Non Woven Carry bags–</span> U Cut Non Woven Bags are quite commonly known as grocery bags. The cut type is similar to that of plastic bags that one gets when buying groceries. They are a good replacement for harmful plastic bags that are doing a lot of harm to our environment.</p>
+                    <p><span style={{ fontWeight: 'bold' }}>1.  D Cut Non Woven Bags –</span> D cut non woven bags that can be used to carry bags which is a great replacement for plastic bags at shop and stores. The Handle of  D cut bag is soft and hence it is an essential part of the bag, they do not get ripped that easily.</p>
+                    <p><span style={{ fontWeight: 'bold' }}>2. W Cut Non Woven Bags –</span> W Cut Non Woven Bags are considered as a top selling bags in the market. These are made with a premium grade of raw materials and fabric materials. Provided bags are eco-friendly and doesn’t harm the environment. W-Cut Non Woven Bags are considered as a top selling bags in the market. These are made with a premium grade of raw materials and fabric materials. Provided bags are eco-friendly and doesn’t harm the environment.</p>
+                    <p><span style={{ fontWeight: 'bold' }}>3. U Cut Non Woven Carry bags–</span> U Cut Non Woven Bags are quite commonly known as grocery bags. The cut type is similar to that of plastic bags that one gets when buying groceries. They are a good replacement for harmful plastic bags that are doing a lot of harm to our environment.</p>
                 </div>
             </div>
             <div className='WfourthPart'>
@@ -88,11 +84,11 @@ function WcutBag() {
             </div>
             <div className='WfivethPart'>
                 <h2>Benefits Of Non Woven Carry Bags</h2>
-                <p><span style={{fontWeight: 'bold'}}>1. Environment-Friendly: </span> These are 100% green and Eco-friendly. These are Biodegradable. These do not release toxic gas or chemical while being disposed of. On the other hand, plastic bags are non-biodegradable and are harmful to the environment. So non-woven bags are said to be Eco-friendly bags.</p>
-                <p><span style={{fontWeight: 'bold'}}>2. Reduce, Reuse And Recycle: </span> Non-woven bags are 100% recyclable. You can recycle non-woven bags and help to keep our nature clean and green. Non-woven bags can be reused. You can wash them and use again.</p>
-                <p><span style={{fontWeight: 'bold'}}>3. Durable: </span> When contrasted with the conventional shopping bags, the non-woven bags are dependable and can last up to 5 years. Basically, these bags can be utilized and reused a few hundred times and can convey more loads when contrasted with the customary shopping bags. These bags are water-resistant, attractive and recyclable. These bags won’t break, tear or wear out like paper bags or PET bags. So, non-woven bags definitely rank better than the other counterparts.</p>
-                <p><span style={{fontWeight: 'bold'}}>4. Advertising Tool:  </span>On the non-woven bag, printing can be done. So there are a lot of non-woven bag manufacturers who can print a logo as well as the brand name of the company and creates attractive bags and it also attracts the customer. So non-woven bag can prove to be a great advertising tool for companies. Also, there are various colors and sizes are available of a non-woven bag.</p>
-                <p><span style={{fontWeight: 'bold'}}>5. Liquid Repellent: </span>Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
+                <p><span style={{ fontWeight: 'bold' }}>1. Environment-Friendly: </span> These are 100% green and Eco-friendly. These are Biodegradable. These do not release toxic gas or chemical while being disposed of. On the other hand, plastic bags are non-biodegradable and are harmful to the environment. So non-woven bags are said to be Eco-friendly bags.</p>
+                <p><span style={{ fontWeight: 'bold' }}>2. Reduce, Reuse And Recycle: </span> Non-woven bags are 100% recyclable. You can recycle non-woven bags and help to keep our nature clean and green. Non-woven bags can be reused. You can wash them and use again.</p>
+                <p><span style={{ fontWeight: 'bold' }}>3. Durable: </span> When contrasted with the conventional shopping bags, the non-woven bags are dependable and can last up to 5 years. Basically, these bags can be utilized and reused a few hundred times and can convey more loads when contrasted with the customary shopping bags. These bags are water-resistant, attractive and recyclable. These bags won’t break, tear or wear out like paper bags or PET bags. So, non-woven bags definitely rank better than the other counterparts.</p>
+                <p><span style={{ fontWeight: 'bold' }}>4. Advertising Tool:  </span>On the non-woven bag, printing can be done. So there are a lot of non-woven bag manufacturers who can print a logo as well as the brand name of the company and creates attractive bags and it also attracts the customer. So non-woven bag can prove to be a great advertising tool for companies. Also, there are various colors and sizes are available of a non-woven bag.</p>
+                <p><span style={{ fontWeight: 'bold' }}>5. Liquid Repellent: </span>Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
             </div>
             <div className='WfinalPart'>
                 <h1>FOR ANY ENQUIRY</h1>

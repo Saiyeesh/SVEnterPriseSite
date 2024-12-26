@@ -90,9 +90,9 @@ function Products() {
                 <p><span style={{fontWeight: 'bold'}}>4. Advertising Tool:  </span>On the non-woven bag, printing can be done. So there are a lot of non-woven bag manufacturers who can print a logo as well as the brand name of the company and creates attractive bags and it also attracts the customer. So non-woven bag can prove to be a great advertising tool for companies. Also, there are various colors and sizes are available of a non-woven bag.</p>
                 <p><span style={{fontWeight: 'bold'}}>5. Liquid Repellent: </span>Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
             </div>
-            <div className='profinalPart'>
-                <img src={backWall} alt='' className='proback'/>
-                <p>shasdiasb</p>
+            <div className='WfinalPart'>
+                <h1>FOR ANY ENQUIRY</h1>
+                <button>Call Today</button>
             </div>
         </>
     )
