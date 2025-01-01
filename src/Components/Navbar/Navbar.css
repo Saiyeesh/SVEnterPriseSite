@@ -94,9 +94,6 @@
     color: white;
   }
   
-  .nav-links-mobile a:hover {
-    color: #00bcd4;
-  }
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
