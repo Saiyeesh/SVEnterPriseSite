@@ -1,3 +1,146 @@
+/* Base Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+  }
+  
+  .logoBox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoBox h4 {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+    position: relative; /* For underline effect */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #00bcd4;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%; /* Expands underline on hover */
+  }
+  
+  .nav-links a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Mobile View Styles */
+  .mobile-menu-icon {
+    display: none;
+    font-size: 1.8em;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1;
+  }
+  
+  .nav-links-mobile li {
+    margin: 10px 0;
+  }
+  
+  .nav-links-mobile a {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+  }
+  
+  .nav-links-mobile a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+
+    .navbar{
+        display: flex;
+    }
+  
+    .nav-links-mobile {
+      background-color: rgb(63, 94, 125);
+    }
+  
+    .nav-links-mobile.show {
+      display: flex; /* Toggle visibility for mobile menu */
+    }
+  }
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbarMain{
     background-color: black;
     display: flex;

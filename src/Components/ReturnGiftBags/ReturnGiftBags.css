@@ -1,11 +1,14 @@
 .RcutBack{
-    background-color: antiquewhite;
-    margin-top: -20px;
+    background-color: rgb(145, 127, 103);
+    
 }
 
 .RcutBack h2{
     font-family: Roboto;
     padding: 15px;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
 }
 
 .Rcutfirstpart{
@@ -13,6 +16,7 @@
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid black;
+    padding: 15px;
 }
 
 .RcutImg{

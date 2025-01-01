@@ -36,8 +36,6 @@
     width: 60%;
 }
 
-
-
 .leftTxt button{
     background-color: #0f5b26;
     height: 45px;
@@ -47,8 +45,6 @@
     font-family: Roboto;
     font-weight: bold;
 }
-
-
 
 .firstImg{
     height: 300px;
@@ -146,7 +142,7 @@
     text-align: justify;
 }
 .sheetImg{
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
 }
 
@@ -176,6 +172,7 @@
 .lastPage{
     display: flex;
     background-color: rgb(249, 253, 255);
+    padding: 10px;
 }
 
 
@@ -227,8 +224,8 @@
     }
 
     .BagCards {
-        width: 90%;
-        height: auto;
+        width: 200px;
+        height: 250px;
         margin: 10px 0;
     }
 
@@ -238,10 +235,14 @@
 
     .cardImg {
         height: 200px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .cardImgD {
-        height: 200px;
+        height: 180px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .whyChoose {
@@ -276,13 +277,15 @@
     }
 
     .sub-items {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
     }
 
     .item1 {
         margin-right: 0;
         margin-bottom: 15px;
+        padding-right: 20px;
     }
 
     .item1 p {

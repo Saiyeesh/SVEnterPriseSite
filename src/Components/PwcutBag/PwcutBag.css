@@ -19,7 +19,6 @@
 }
 
 .pcutImg{
-    border: 2px solid black;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -50,8 +49,8 @@
 }
 
 .ImgW{
-    width: 400px;
-    height: 300px;
+    height: 250px;
+    width: 300px;
     padding-left: 50px;
 }
 

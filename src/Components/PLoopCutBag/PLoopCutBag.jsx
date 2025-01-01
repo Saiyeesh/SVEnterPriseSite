@@ -91,8 +91,14 @@ function PLoopCutBag() {
             <p><span style={{ fontWeight: 'bold' }}>5. Liquid Repellent: </span>. Non-woven bags are waterproof bags. So you can carry these bags in rainy season also whereas plastic bags are not waterproof.</p>
          </div>
          <div className='WfinalPart'>
-                <h1>FOR ANY ENQUIRY</h1>
-                <button>Call Today</button>
+         <h1>FOR ANY ENQUIRY</h1>
+            <a
+               href="https://www.whatsapp.com/catalog/919963265472/?app_absent=0"
+               target="_blank"
+               className="alinks"
+            >
+            <button>Call Today</button>
+        </a>
          </div>
       </>
    )

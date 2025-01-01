@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 .a{
     display: flex;
@@ -20,10 +21,11 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
     color: rgb(130, 126, 126);
+    padding-top: 6px;
 }
 .img1{
-    width:550px;
-    height: 500px;
+    width:500px;
+    height: 460px;
     margin-top: 50px;
     margin-left: 150px;
     border-radius: 50px;

@@ -1,4 +1,3 @@
-import React from 'react'
 import card1 from "..//../assets/download.jpg";
 import dcut from "..//../assets/dcut.jpg";
 import wprint from "..//../assets/wprint.jpg";
@@ -29,7 +28,7 @@ function Home() {
                 <div className='firstPart'>
                     <div className='leftTxt'>
                         <h1>Trasforming Custom Printings with Non Woven Bags</h1>
-                        <p>At <span style={{fontWeight: 'bold'}}> SV_EnterPrises</span>, we provide custom printings acording to creative designs with Non Woven Bags, By choosing non-woven bags, you’re not just building a business—you’re contributing to a cleaner, greener future for generations to come.</p>
+                        <p>At <span style={{fontWeight: 'bold'}}> SV_EnterPrises</span>, we provide custom printings according to creative designs with Non Woven Bags, By choosing non-woven bags, you’re not just building a business—you’re contributing to a cleaner, greener future for generations to come.</p>
                        <Link to="/contact"><button>Contact Us</button></Link>
                     </div>
                     <div className='rightImg'>
@@ -39,7 +38,7 @@ function Home() {
                 <div className='ourProducts'>
                     <h2>Our Products</h2>
                     <div className='boxContainers'>
-                        <Link to="/wCutBag" className='linkLines'><div class="card" className='BagCards'>
+                        <Link to="/wCutBag" className='linkLines'><div className='BagCards'>
                             <img class="card-img-top" src={card1} alt="Card image cap" className='cardImg' />
                             <div class="card-body">
                                 <h5 class="card-title">W Cut Non Woven Bags</h5>
