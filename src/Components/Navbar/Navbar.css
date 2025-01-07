@@ -40,77 +40,61 @@
     font-size: 1.2em;
     transition: color 0.3s ease;
   }
-  
-  .nav-links a::after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 0;
-    transition: width 0.3s ease;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-  }
+
   
   .nav-links a:hover::after {
     width: 100%; /* Expands underline on hover */
   }
-  
-  /* Mobile View Styles */
-  .mobile-menu-icon {
-    display: none;
-    font-size: 1.8em;
-    color: #fff;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .nav-links-mobile {
-    display: flex;
+
+  .hamburger{
+    gap: 5px;
     flex-direction: column;
-    list-style: none;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    padding: 20px 0;
-    z-index: 1;
+    cursor: pointer;
+    display: none;
   }
-  
-  .nav-links-mobile li {
-    margin: 10px 0;
-  }
-  
-  .nav-links-mobile a {
-    font-size: 1.5em;
-    text-align: center;
-    color: white;
+
+  .hamburger div{
+    background-color: white;
+    width: 25px;
+    height: 3px;
   }
   
   
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .mobile-menu-icon {
-      display: block;
-    }
 
     .navbar{
         display: flex;
         flex-direction: row;
     }
   
-    .nav-links-mobile {
-      background-color: rgb(63, 94, 125);
-    }
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: transparent;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      padding: 1em 0;
+  }
   
-    .nav-links-mobile.show {
-      display: flex; /* Toggle visibility for mobile menu */
+  .nav-links li{
+    font-family: Roboto;
+    color: rgb(201, 200, 200);
+    font-style: normal;
+    font-size: 15px;
+    padding: 4px;
+    padding-left: 20px;
+  }
+  
+  .nav-links.active {
+      display: flex;
+  }
+
+    .hamburger{
+      display: flex;
+      flex-direction: column;
     }
   }
   
@@ -239,7 +223,7 @@
     text-underline-offset: 15px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbarMain {
         flex-direction: row;
         height: auto;
@@ -311,4 +295,116 @@
     .linkLine:hover {
         text-underline-offset: 10px;
     }
+} */
+
+/* General Mobile View Styles */
+@media (max-width: 768px) {
+  /* Navbar Container */
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 10px 15px;
+    background-color: black;
+    position: relative;
+  }
+
+  /* Logo Section */
+  .logoBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .logoBox h4 {
+    color: white;
+    font-family: Serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .logo {
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .hamburger div {
+    background-color: white;
+    width: 25px;
+    height: 3px;
+  }
+
+  /* Navigation Links */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 15px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    list-style: none;
+    margin: 10px 0;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+  }
+
+  /* Buttons and Icons */
+  .btn-mobile {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-mobile button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-mobile button:hover {
+    background-color: orange;
+  }
 }

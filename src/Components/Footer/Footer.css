@@ -1,6 +1,7 @@
 .footerBack{
     background-color: darkslategray;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
@@ -44,6 +45,7 @@
     font-family: Roboto;
     font-size: 15px;
     margin-top: -2px;
+    text-align: center;
 }
 
 .footerSecoundPart h4{
@@ -76,9 +78,18 @@
     /* color: white; */
 }
 
+.logg1{
+    font-size: 50px;
+    padding: 5px;
+}
+
 .flinks{
     text-decoration: none;
     color: whitesmoke;
+}
+
+.footerThirdPart{
+    width: 20%;
 }
 
 
@@ -140,8 +151,15 @@
         font-size: 25px;
     }
 
+    .logg1{
+        font-size: 30px;
+    }
+
     .footerThirdPart h4 {
         font-size: 18px;
         margin-top: 10px;
+    }
+    .footerThirdPart{
+        width: 80%;
     }
 }

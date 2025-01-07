@@ -71,14 +71,14 @@ function Home() {
                         <Link to="/loopcut" className='linkLines'><div class="card" className='BagCards'>
                             <img class="card-img-top" src={loopcut} alt="Card image cap" className='cardImg' />
                             <div class="card-body">
-                                <h5 class="card-title">Loop Cut Non Woven Bags</h5>
+                                <h5 class="card-title">Loop Handle Non Woven Bags</h5>
                             </div>
                         </div>
                         </Link>
                         <Link to="/ploopcut" className='linkLines'><div class="card" className='BagCards'>
                             <img class="card-img-top" src={ploop} alt="Card image cap" className='cardImgD' />
                             <div class="card-body">
-                                <h5 class="card-title">Printed Loop Cut Non Woven Bags</h5>
+                                <h5 class="card-title">Printed Loop Handle Non Woven Bags</h5>
                             </div>
                         </div>
                         </Link>
@@ -89,7 +89,7 @@ function Home() {
                             </div>
                         </div>
                         </Link>
-                        <Link to="/returnBag" className='linkLines'><div class="card" className='BagCards'>
+                        <Link to="/returnBag" className='linkLines'><div className='BagCards'>
                             <img class="card-img-top" src={giftbag} alt="Card image cap" className='cardImg' />
                             <div class="card-body">
                                 <h5 class="card-title">Return Gift/ Thanks giving bags</h5>

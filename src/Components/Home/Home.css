@@ -211,8 +211,9 @@
     .firstImg {
         height: 200px;
         width: 100%;
-        margin: 15px;
-        border-radius: 10px;
+        /* margin: 15px; */
+        border-radius: 20px;
+        margin-right: 20px;
     }
 
     .ourProducts h2 {

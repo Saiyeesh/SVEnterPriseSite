@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import logo from "..//../assets/logo.png";
+import logo from "..//../assets/svlogo.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
@@ -10,7 +10,15 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMenuOpen, setisMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setisMenuOpen(!isMenuOpen);
+  }
+
+  const closeMenu = () => {
+    setisMenuOpen(false)
+  }
 
   return (
     <>
@@ -53,29 +61,25 @@ function Navbar() {
             <img src={logo} alt="logo" className="logo" />
             <h4>SV_Enterprises___</h4>
           </div>
-          <ul
-            className={isMobile ? "nav-links-mobile" : "nav-links"}
-            onClick={() => setIsMobile(false)}
-          >
-            <Link to="/" className="linkLine">
+          <div className="hamburger" onClick={toggleMenu}>
+                <div></div>
+                <div></div>
+                <div></div>
+          </div>
+          <ul className={isMenuOpen ? "nav-links active" : "nav-links"} >
+            <Link to="/" className="linkLine" onClick={closeMenu}>
               <li>Home</li>
             </Link>
-            <Link to="/products" className="linkLine">
+            <Link to="/products" className="linkLine" onClick={closeMenu}>
               <li>Products</li>
             </Link>
-            <Link to="/about" className="linkLine">
+            <Link to="/about" className="linkLine" onClick={closeMenu}>
               <li>About Us</li>
             </Link>
-            <Link to="/contact" className="linkLine">
+            <Link to="/contact" className="linkLine" onClick={closeMenu}>
               <li>Contact Us</li>
             </Link>
           </ul>
-          <button
-            className="mobile-menu-icon"
-            onClick={() => setIsMobile(!isMobile)}
-          >
-            {isMobile ? "✖" : "☰"}
-          </button>
         </div>
       </div>
     </>
