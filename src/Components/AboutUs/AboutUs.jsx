@@ -94,6 +94,7 @@ function AboutUs() {
           <button type="button">WHATSAPP US</button>
           </a>
         </div>
+        <img />
       </div>
     </>
   );

@@ -68,7 +68,7 @@ function Navbar() {
           </div>
           <ul className={isMenuOpen ? "nav-links active" : "nav-links"} >
             <Link to="/" className="linkLine" onClick={closeMenu}>
-              <li>Home</li>
+              <li>BYEEE</li>
             </Link>
             <Link to="/products" className="linkLine" onClick={closeMenu}>
               <li>Products</li>

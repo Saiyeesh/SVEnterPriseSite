@@ -1,7 +1,6 @@
-import React from "react";
 import "./Contact.css"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -11,6 +10,7 @@ function Contact() {
       quantity: '',
       message: ''
     })
+
 
     const [status, setStatus] = useState('');
 
@@ -81,3 +81,11 @@ function Contact() {
 }
 
 export default Contact
+
+
+
+
+
+
+
+
